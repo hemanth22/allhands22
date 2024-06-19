@@ -1,6 +1,6 @@
-# Automation with Docker for CI/CD Workflows
+# Automation with Docker for CI Workflows
 
-[![Lint Code Base](https://github.com/BretFisher/allhands22/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/BretFisher/allhands22/actions/workflows/call-super-linter.yaml)
+[![Lint Code Base](https://github.com/bretfisher/docker-ci-automation/actions/workflows/call-super-linter.yaml/badge.svg)](https://github.com/bretfisher/docker-ci-automation/actions/workflows/call-super-linter.yaml)
 
 > For Docker Community All Hands 2022
 
@@ -8,15 +8,17 @@
 
 Watch the walkthrough of this repo: [https://www.youtube.com/watch?v=aZzV6X7XhyI](https://www.youtube.com/watch?v=aZzV6X7XhyI)
 
-See this repositories [`.github/workflows`](.github/workflows) directory for the below example workflows, ordered by number, simple to complex.
+See this repositories' [`.github/workflows`](.github/workflows) directory for the below example workflows, ordered by number, simple to complex.
 
 These examples are focused on five of Docker's [official GitHub Actions](https://github.com/marketplace?type=actions&query=publisher%3Adocker+).
 
-These examples are based on three workflow diagrams on progressivly more complex automation pipelines:
+These examples are based on three workflow diagrams on progressively more complex automation pipelines:
 
 1. [Basic code PR automation workflow](diagrams/basic-code-pr.png)
 2. [Intermediate code PR automation workflow](diagrams/intermediate-code-pr.png)
 3. [Advanced code PR automation workflow](diagrams/advanced-code-pr.png)
+
+I also have a [LIVE course on learning GitHub Actions for DevOps automation and Argo CD](https://bret.courses/autodeploy) for GitOps-style deployments.
 
 ## Example Workflows
 
@@ -34,23 +36,24 @@ These examples are based on three workflow diagrams on progressivly more complex
 
 ## GitHub Actions shown in these examples
 
-* [Docker Loginn](https://github.com/marketplace/actions/docker-login)
-* [Docker Setup Buildx](https://github.com/marketplace/actions/docker-setup-buildx)
-* [Docker Setup QEMU](https://github.com/marketplace/actions/docker-setup-qemu)
-* [Docker Metadata](https://github.com/marketplace/actions/docker-metadata-action)
-* [Docker Build and Push](https://github.com/marketplace/actions/build-and-push-docker-images)
-* [Aqua Security Trivy CVE Scan](https://github.com/marketplace/actions/aqua-security-trivy)
-* [Super-Linter](https://github.com/marketplace/actions/super-linter)
-* [Setup k3d](https://github.com/marketplace/actions/absaoss-k3d-action)
-* [Find Comment](https://github.com/marketplace/actions/find-comment)
-* [Create or Update Comment](https://github.com/marketplace/actions/create-or-update-comment)
+- [Docker Login](https://github.com/marketplace/actions/docker-login)
+- [Docker Setup Buildx](https://github.com/marketplace/actions/docker-setup-buildx)
+- [Docker Setup QEMU](https://github.com/marketplace/actions/docker-setup-qemu)
+- [Docker Metadata](https://github.com/marketplace/actions/docker-metadata-action)
+- [Docker Build and Push](https://github.com/marketplace/actions/build-and-push-docker-images)
+- [Aqua Security Trivy CVE Scan](https://github.com/marketplace/actions/aqua-security-trivy)
+- [Super-Linter](https://github.com/marketplace/actions/super-linter)
+- [Setup k3d](https://github.com/marketplace/actions/absaoss-k3d-action)
+- [Find Comment](https://github.com/marketplace/actions/find-comment)
+- [Create or Update Comment](https://github.com/marketplace/actions/create-or-update-comment)
 
-## This repository is part of my example repos on GitHub Actions
+## This repository is part of my example DevOps repos on GitHub Actions
 
-* [bretfisher/github-actions-templates](https://github.com/BretFisher/github-actions-templates) - Main repository
-* [bretfisher/super-linter-workflow](https://github.com/BretFisher/super-linter-workflow) - Reusable linter workflow
-* [bretfisher/docker-build-workflow](https://github.com/BretFisher/docker-build-workflow)- Reusable docker build workflow
-* (you are here) [bretfisher/allhands22](https://github.com/BretFisher/github-actions-templates) - Step by step example of a Docker workflow
+- [bretfisher/github-actions-templates](https://github.com/BretFisher/github-actions-templates) - Main reusable templates repository
+- [bretfisher/super-linter-workflow](https://github.com/BretFisher/super-linter-workflow) - Reusable linter workflow
+- [bretfisher/docker-build-workflow](https://github.com/BretFisher/docker-build-workflow)- Reusable docker build workflow
+- (you are here) [bretfisher/docker-ci-automation](https://github.com/BretFisher/docker-ci-automation) - Step by step video and example of a Docker CI workflow
+- [My full list of container examples and tools](https://github.com/bretfisher)
 
 ## More reading
 
@@ -59,6 +62,6 @@ These examples are based on three workflow diagrams on progressivly more complex
 
 ## 🎉🎉🎉 Join my container DevOps community 🎉🎉🎉
 
-* [My "Vital DevOps" Discord server](https://devops.fan)
-* [My weekly YouTube Live show](https://bret.live)
-* [My courses and coupons](https://www.bretfisher.com/courses)
+- [My "Vital DevOps" Discord server](https://devops.fan)
+- [My weekly YouTube Live show](https://bret.live)
+- [My courses and coupons](https://www.bretfisher.com/courses)
